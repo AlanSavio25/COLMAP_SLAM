@@ -1,6 +1,8 @@
 # COLMAP-SLAM
 [3D Vision](https://www.cvg.ethz.ch/teaching/3dvision/) project supervised by [Paul-Edouard](https://github.com/Skydes)
 
+Authors:
+Vukasin Bozic, Markus Pobitzer, Max Wilder-Smith, Alan Savio Paul
 
 ## Abstract
 State-of-the-art Structure from Motion algorithms such as [COLMAP](https://github.com/colmap/colmap) are highly robust in reconstruction but are slow and often don't scale well. This makes them unsuitable for long video data. On the other hand, SLAM systems can process videos (sequential images) in real-time but fall behind COLMAP in map quality. The goal of this project is to combine the best of both worlds to obtain a fast, robust and scalable SLAM system. We demonstrate that we partially achieved our goals by utilizing components of COLMAP and ideas from [ORB-SLAM](https://github.com/raulmur/ORB_SLAM). The quality of our map, however, is not yet comparable with the state-of-the-art.
